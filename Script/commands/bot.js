@@ -47,7 +47,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   ];
 
   const rand = tl[Math.floor(Math.random() * tl.length)];
-  if (event.body?.toLowerCase().startsWith("ss")) {
+  if (event.body?.toLowerCase().startsWith("bot")) {
     const msg = {
       body: `╭•┄┅═══❁🌺❁═══┅┄•╮\n✨ ${name},\n\n『 ${rand} 』\n\n📅 ${time}\n❤️ 𝗔𝗗𝗠𝗜𝗡 : 𝗖𝗬𝗕𝗘𝗥~𝐒𝐇𝐎𝐔𝐑𝐎𝐕 🌸\n╰•┄┅═══❁🌺❁═══┅┄•╯`
     };
