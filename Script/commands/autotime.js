@@ -3,7 +3,7 @@ const moment = require('moment-timezone');
 
 module.exports.config = {
 
-  name: "autotimer",
+  name: "autotime",
 
   version: "2.0.0",
 
